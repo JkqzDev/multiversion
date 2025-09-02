@@ -126,7 +126,7 @@ func (Internal) downgradeCraftingDescription(descriptor protocol.ItemDescriptor,
 	case *protocol.ComplexAliasItemDescriptor:
 		/// ?????
 	}
-	return
+	return networkId, metadata
 }
 
 // upgradeCraftingDescription ...
